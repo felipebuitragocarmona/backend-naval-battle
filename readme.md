@@ -3,7 +3,7 @@
 Esta es una API en Flask para registrar y consultar los puntajes de un juego, junto con información de países.
 
 ## Requisitos
-Antes de ejecutar la API, instala las dependencias necesarias:
+Antes de ejecutar la API, debes tener instalado Python. Luego instala las dependencias necesarias con el siguiente comando
 
 ```sh
 pip install flask flask-cors requests
@@ -33,7 +33,7 @@ Ejemplo de request:
 **GET** `/ranking`
 - Retorna la lista de jugadores ordenada por puntaje de mayor a menor.
 
-### Obtener lista de países (descargados de Internet)
+### Obtener lista de países
 **GET** `/countries`
 - Devuelve el contenido de `countries.json`.
 

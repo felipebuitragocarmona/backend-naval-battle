@@ -2,6 +2,10 @@
 
 Esta es una API en Flask para registrar y consultar los puntajes de un juego, junto con información de países.
 
+```sh
+git clone https://github.com/felipebuitragocarmona/backend-naval-battle
+```
+
 ## Requisitos
 Antes de ejecutar la API, debes tener instalado Python. Luego instala las dependencias necesarias con el siguiente comando
 
